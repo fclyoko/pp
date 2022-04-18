@@ -34,8 +34,31 @@
                             </div>
                         </div>
                     </div>
+                    <div class="body-content">
+                        <div class="second-navbar">
+                            <div class="grid md:grid-cols-12">
+                                <div class="col-span-4 p-4">
+                                    <a href="">Empezar</a> <a href="">Panel</a>
+                                </div>
+                                <div class="col-span-8 p-4">
+                                    MÁS ACCIONES
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="grid md:grid-cols-12">
+                                <div class="col-span-4 p-4 lists">
+                                    LISTAS
+                                </div>
+                                <div class="col-span-8 p-4 content-ajax">
+                                    CONTENIDO
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </body>

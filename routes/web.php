@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+//use App\Http\Controllers\UserController;
+use App\Http\Controllers\AddProveedor;
+use App\Http\Controllers\ShowPanel;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +21,15 @@ Route::get('/', function () {
 });
 
 Route::get('/proveedores', function () {
-    return view('home');
+   //return view('home');
+   
 });
+
+Route::get('/boot', function () {
+    return view('boot');
+});
+
+Route::get('/add-proveedor-welcome', [AddProveedor::class, 'create']);
+Route::get('/panel', [ShowPanel::class, 'show']);
+
+//Route::post('ajax-request', 'AddProveedor@store');

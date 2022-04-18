@@ -2,7 +2,114 @@ ul.main-menu li {
     padding: 10px 0;
     transition: 0.3s;
     font-size: 24px;
+    color: #fff;
 }
 ul.main-menu li:hover {
     background-color: rgb(21 41 98);
+}
+/*.navbar {
+    border-bottom: 1px solid #eee;
+}
+.navbar a, .navbar p {
+    font-size: 13px;
+}
+.second-navbar {
+    border-bottom: 1px solid #eee;
+}*/
+
+ul.main-menu {
+    list-style: none;
+    padding: 0;
+    color: #fff;
+    background-color: #1e3a8a;
+    height: 100%;
+}
+ul.main-menu li a {
+    color: #fff;
+}
+.init-navbar {
+    border-bottom: 1px solid #eee;
+}
+.init-navbar a, .init-navbar p {
+    font-size: 13px;
+}
+.second-navbar {
+    border-bottom: 1px solid #eee;
+}
+.init-navbar a, .second-navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+.lists {
+    border-right: 1px solid #eee;
+}
+li.list-group-item {
+    border: none;
+    padding: 10px 30px;
+    background-color: #f9f9f9;
+    border-radius: 0px;
+    border-left: 3px solid #1e3a8a;
+    font-size: 14px;
+    font-weight: 500;
+}
+li.list-group-item a {
+    text-decoration: none;
+    color: inherit;
+}
+ul.list-group {
+    border-radius: 0px;
+    padding: 10px 10px;
+    box-shadow: #e1e1e1 2px 6px 8px;
+}
+li.list-group-item:hover {
+    background-color: #cbd4f1;
+}
+.start-controls, .start-controls a {
+    display: flex;
+    padding: 0px 2;
+    transition: 0.2s;
+}
+.start-controls a:hover {
+    font-weight: 500;
+    color: #1e3a8a;
+    border-bottom: 2px solid #1e3a8a;
+}
+.start-controls a {
+    width: 100px;
+    text-align: center;
+    padding: 0 20px;
+}
+ul.list-group i {
+    color: #1e3a8a;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.main-controls {
+    display: flex;
+    justify-content: flex-end;
+}
+.main-controls a, .main-controls input {
+    padding: 0 10px;
+    font-size: 16px;
+}
+input#search {
+    /* border-color: #eee; */
+    /* border: none; */
+    border: 1px solid #eee;
+    background-color: #eee;
+}
+.welcome-message {
+    font-size: 15px;
+}
+a.user-profile {
+    background-color: #c7c7c7;
+    border-radius: 90px;
+    height: 30px;
+    /* width: 30px; */
+    /* text-align: center; */
+    color: #fff;
+}
+.company-profile {
+    color: #09173e;
 }
